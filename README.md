@@ -1,4 +1,4 @@
-CPPTutorial
+WPFTutorial2015
 ====================
 
 Use this repository for development of code for the demostration of WPF application with studio 2015
