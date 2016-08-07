@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkSQLCEApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkSQLExpressApp", "EntityFrameworkSQLExpressApp\EntityFrameworkSQLExpressApp.csproj", "{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmLightApp", "MvvmLightApp\MvvmLightApp.csproj", "{171DF81C-C6A3-4144-9C64-75FB4DFEA557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

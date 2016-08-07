@@ -1,4 +1,11 @@
-﻿### This project shows how to use EntityFramework to Connect to SQLExpress
+﻿# This project shows how to use plain RelayCommand, ViewModelBase, and etc for MVVM development
 
-#### Create Data table in visual studio 2015
-#### Get EntityFramework package using NuGet.
+## Demonstrate the NLog usage
+* Get NLog package using NuGet
+* Configure the NLog
+* 
+
+## Demonstrate MVVM.
+* Communication between VMs
+* Communication between VMs and Views
+* Controls
