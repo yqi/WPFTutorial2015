@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8C7BB2CF-8FBD-412F-B60A-050885DA6AF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{A1463DF5-F138-40D8-BC8E-F9CD319B4206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkSQLCEApp", "EntityFrameWorkSQLCEApp\EntityFrameWorkSQLCEApp.csproj", "{459DC130-F994-45F0-BE80-4E49E415E849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkSQLExpressApp", "EntityFrameworkSQLExpressApp\EntityFrameworkSQLExpressApp.csproj", "{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{A1463DF5-F138-40D8-BC8E-F9CD319B4206}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1463DF5-F138-40D8-BC8E-F9CD319B4206}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1463DF5-F138-40D8-BC8E-F9CD319B4206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459DC130-F994-45F0-BE80-4E49E415E849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459DC130-F994-45F0-BE80-4E49E415E849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459DC130-F994-45F0-BE80-4E49E415E849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459DC130-F994-45F0-BE80-4E49E415E849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
