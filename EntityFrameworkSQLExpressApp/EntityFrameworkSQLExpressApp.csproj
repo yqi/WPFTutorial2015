@@ -66,11 +66,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ClassDbDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ClassDbDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="ClassModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -133,17 +128,6 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ClassModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="ClassDbDataSet.xsc">
-      <DependentUpon>ClassDbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="ClassDbDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ClassDbDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ClassDbDataSet.xss">
-      <DependentUpon>ClassDbDataSet.xsd</DependentUpon>
-    </None>
     <None Include="ClassModel.edmx.diagram">
       <DependentUpon>ClassModel.edmx</DependentUpon>
     </None>
