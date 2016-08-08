@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EntityFrameworkSQLExpressApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:ClassDbDataSet x:Key="classDbDataSet"/>
+        <CollectionViewSource x:Key="studentViewSource" Source="{Binding Student, Source={StaticResource classDbDataSet}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource studentViewSource}">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="242,123,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="studentDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="65,26,53.4,94.8" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="studentIdColumn" Binding="{Binding StudentId}" Header="Student Id" IsReadOnly="True" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="nameColumn" Binding="{Binding Name}" Header="Name" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

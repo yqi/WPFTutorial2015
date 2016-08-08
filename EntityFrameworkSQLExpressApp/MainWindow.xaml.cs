@@ -20,9 +20,23 @@ namespace EntityFrameworkSQLExpressApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        ClassDbEntities entities;
         public MainWindow()
         {
             InitializeComponent();
+
+            entities = new ClassDbEntities();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            EntityFrameworkSQLExpressApp.ClassDbDataSet classDbDataSet = ((EntityFrameworkSQLExpressApp.ClassDbDataSet)(this.FindResource("classDbDataSet")));
+            // Load data into the table Student. You can modify this code as needed.
+            EntityFrameworkSQLExpressApp.ClassDbDataSetTableAdapters.StudentTableAdapter classDbDataSetStudentTableAdapter = new EntityFrameworkSQLExpressApp.ClassDbDataSetTableAdapters.StudentTableAdapter();
+            classDbDataSetStudentTableAdapter.Fill(classDbDataSet.Student);
+            System.Windows.Data.CollectionViewSource studentViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("studentViewSource")));
+            studentViewSource.View.MoveCurrentToFirst();
         }
     }
 }
