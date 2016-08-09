@@ -13,14 +13,5 @@ namespace EntityFrameworkSQLExpressApp
         {
             InitializeComponent();
         }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            using (ClassDbEntities entities = new ClassDbEntities())
-            {
-                entities.Students.Load();
-                dataGrid.ItemsSource = entities.Students.Local;
-            }
-        }
     }
 }

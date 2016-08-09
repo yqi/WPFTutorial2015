@@ -83,6 +83,13 @@
     <Compile Include="TeacherCourse.cs">
       <DependentUpon>ClassModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\DbFirstDemoVM.cs" />
+    <Compile Include="Views\CodeFirstDemoCtrl.xaml.cs">
+      <DependentUpon>CodeFirstDemoCtrl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DbFirstDemoCtrl.xaml.cs">
+      <DependentUpon>DbFirstDemoCtrl.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -105,6 +112,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\CodeFirstDemoCtrl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DbFirstDemoCtrl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -156,6 +171,15 @@
       <DependentUpon>ClassModel.edmx</DependentUpon>
       <LastGenOutput>ClassModel.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8c7bb2cf-8fbd-412f-b60a-050885da6af7}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
