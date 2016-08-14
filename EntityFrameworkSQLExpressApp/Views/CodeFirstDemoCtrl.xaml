@@ -7,6 +7,70 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-            
+        <TabControl TabStripPlacement="Bottom">
+            <TabItem Header="Student Table">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid x:Name="_studentGrid" Grid.Row="0" ItemsSource="{Binding Path=DbContext.Students.Local}"/>
+                    <UniformGrid Grid.Row="1" Columns="3">
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderBrush="{x:Null}" Height="50">
+                                <TextBlock Text="Name: " VerticalAlignment="Center"/>
+                            </Border>
+                            <Border BorderBrush="{x:Null}" Height="50">
+                                <TextBox Text="{Binding StudentName}" Width="100" VerticalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+                        <Button Content="Insert" Command="{Binding InsertCommand}" CommandParameter="Student" Width="100" Height="30"/>
+                        <Button Content="Delete" Command="{Binding InsertCommand}" CommandParameter="Student" Width="100" Height="30"/>
+                    </UniformGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Teacher Table">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid Grid.Row="0" ItemsSource="{Binding DbContext.Teachers.Local}"/>
+                    <UniformGrid Grid.Row="1" Columns="3">
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderBrush="{x:Null}" Height="50">
+                                <TextBlock Text="Name: " VerticalAlignment="Center"/>
+                            </Border>
+                            <Border BorderBrush="{x:Null}" Height="50">
+                                <TextBox Text="{Binding TeacherName}" Width="100" VerticalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+                        <Button Content="Insert" Command="{Binding InsertCommand}" CommandParameter="Teacher" Width="100" Height="30"/>
+                        <Button Content="Delete" Command="{Binding InsertCommand}" CommandParameter="Teacher" Width="100" Height="30"/>
+                    </UniformGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Course Table">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid Grid.Row="0" ItemsSource="{Binding DbContext.Courses.Local}"/>
+                    <UniformGrid Grid.Row="1" Columns="3">
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderBrush="{x:Null}" Height="50">
+                                <TextBlock Text="Name: " VerticalAlignment="Center"/>
+                            </Border>
+                            <Border BorderBrush="{x:Null}" Height="50">
+                                <TextBox Text="{Binding CourseName}" Width="100" VerticalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+                        <Button Content="Insert" Command="{Binding InsertCommand}" CommandParameter="Course" Width="100" Height="30"/>
+                        <Button Content="Delete" Command="{Binding InsertCommand}" CommandParameter="Course" Width="100" Height="30"/>
+                    </UniformGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </UserControl>
