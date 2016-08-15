@@ -6,8 +6,10 @@
 * Add "New Items" to project: Data -> ADO.NET Entity Data Model, select EF Designer from database -> select all tables
 * Use "Update" after design changes in Visual Studio.
 * Management Studio has more control on DB design.
+
 ### Advantage
 * data will not be lost
+
 ### Disadvantage
 * create DB is not easy as above
 * sdatabase migration is hard
@@ -20,9 +22,11 @@
 * Double click the generated *.edmx.sql and excecute it.
 * After DB design finished, add data.
 * Rest is same as Database first
+
 ### Advantage
 * easy DB design
 * model can be updated when database changed
+
 ### Disadvantage
 * DB data will be lost if generated database
 
@@ -34,5 +38,6 @@
 ### Advantage
 * more control of database
 * database migration is easy
+
 ### Disadvantage
 * hard to maintain database
