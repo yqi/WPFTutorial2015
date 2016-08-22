@@ -15,20 +15,20 @@
 * database migration is __hard__
 
 ## Model first 
-1. Using NuGet to get EntityFramework
-2. Add "New Items" to project: Data -> ADO.NET Entity Data Model, select Empty EF Designer model
-3. Edit Model with toolbox
-4. Right click on Model and select "Generate database from Model"
-5. Double click the generated *.edmx.sql and excecute it
-6. After DB design finished, add data
-7. Rest is same as Database first
+- Using NuGet to get EntityFramework
+- Add "New Items" to project: Data -> ADO.NET Entity Data Model, select Empty EF Designer model
+- Edit Model with toolbox
+- Right click on Model and select "Generate database from Model"
+- Double click the generated *.edmx.sql and excecute it
+- After DB design finished, add data
+- Rest is same as Database first
 
-* Advantage
+1. Advantage
 
     * easy DB design
     * model can be updated when database changed
 
-* Disadvantage
+2. Disadvantage
 
     * DB data will be lost if generated database
 
