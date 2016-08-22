@@ -20,8 +20,8 @@
 - Edit Model with toolbox
 - Right click on Model and select "Generate database from Model"
 - Double click the generated *.edmx.sql and excecute it
-- After DB design finished, add data
 - Rest is same as Database first
+- After DB design finished, add data
 
 1. Advantage
 
