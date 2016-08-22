@@ -41,6 +41,7 @@
 
 - Fluent API
 - DataAnnotation
+
 ''' Example:
 [Table("StudentInfo")]
 public class Student
@@ -64,6 +65,7 @@ public class Student
     public virtual Standard Standard { get; set; }
 }
 '''
+
 ### Advantage
 * more control of database
 * database migration is easy
