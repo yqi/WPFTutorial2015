@@ -9,9 +9,19 @@ namespace EFCodeFirstSQLExpress.Models
 {
     public class CompanyContext : DbContext
     {
-        public CompanyContext() : base()
+        public CompanyContext() : base("CompanyDb")
         {
         }
+
+        // using connection string is like bellow for local SQL Server:
+        //  <connectionStrings>
+        //      <add name = "SchoolDBConnectionString"
+        //      connectionString="Data Source=.;Initial Catalog=SchoolDb-ByConnectionString;Integrated Security=true" 
+        //      providerName="System.Data.SqlClient"/>
+        //  </connectionStrings>
+        //public CompanyContext() : base("name=SchoolDbConnectionString")
+        //{
+        //}
 
         #region properties
         public DbSet<Product> Product { get; set; }

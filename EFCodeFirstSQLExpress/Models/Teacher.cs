@@ -16,5 +16,6 @@ namespace EFCodeFirstSQLExpress.Models
         public int Id { get; set; }
         public string Name { get; set; }
         #endregion
+        public IList<Course> Courses { get; set; }
     }
 }

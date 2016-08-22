@@ -9,7 +9,7 @@ namespace EFCodeFirstSQLExpress.Models
 {
     public class SchoolContext : DbContext
     {
-        public SchoolContext() : base()
+        public SchoolContext() : base("SchoolDb")
         {
 
         }
