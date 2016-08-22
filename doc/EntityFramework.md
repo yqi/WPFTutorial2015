@@ -23,11 +23,11 @@
 6. After DB design finished, add data
 7. Rest is same as Database first
 
-1. Advantage
+* Advantage
 ..* easy DB design
 ..* model can be updated when database changed
 
-2. Disadvantage
+* Disadvantage
 ..* DB data will be lost if generated database
 
 ## Code First 
