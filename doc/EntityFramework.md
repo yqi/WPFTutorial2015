@@ -1,4 +1,4 @@
-﻿# This project shows how to use EntityFramework to Connect to SQLExpress
+# This project shows how to use EntityFramework to Connect to SQLExpress
 
 ## Database first 
 * Using NuGet to get EntityFramework
@@ -8,7 +8,7 @@
 * Management Studio has more control on DB design.
 
 ### Advantage
-* *data will not be lost*
+* data will not be lost
 
 ### Disadvantage
 * create DB is **not** easy as above
@@ -33,12 +33,11 @@
     * DB data will be lost if generated database
 
 ## Code First 
-+ **Code First** infer the relationship between the two entities using navigation property. This navigation property can be simple reference type or collection type.
-+ **Code-First** includes types defined as a DbSet property in context class.
-+ **Code-First** includes reference types included in entity types even if they are defined in different assembly.
-+ *Code-First* includes derived classes even if only the base class is defined as DbSet property.
-+ The default convention for primary key is that Code-First would create a primary key for a property if the property name is Id or <class name>Id (NOT case sensitive). The data type of a primary key property can be anything, but if the type of the primary key property is numeric or GUID, it will be configured as an identity column.
-
+- **Code First** infer the relationship between the two entities using navigation property. This navigation property can be simple reference type or collection type.
+- **Code-First** includes types defined as a DbSet property in context class.
+- **Code-First** includes reference types included in entity types even if they are defined in different assembly.
+- *Code-First* includes derived classes even if only the base class is defined as DbSet property.
+- The default convention for primary key is that Code-First would create a primary key for a property if the property name is Id or <class name>Id (NOT case sensitive). The data type of a primary key property can be anything, but if the type of the primary key property is numeric or GUID, it will be configured as an identity column.
 - Fluent API
 - DataAnnotation
 
@@ -69,8 +68,8 @@ public class Student
 ```
 
 ### Advantage
-* more control of database
-* database migration is easy
+- more control of database
+- database migration is easy
 
 ### Disadvantage
-* hard to maintain database
+- hard to maintain database
