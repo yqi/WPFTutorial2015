@@ -42,10 +42,9 @@
 - Fluent API
 - DataAnnotation
 
-''' 
-
-Example:
+''' Example:
 [Table("StudentInfo")]
+
 public class Student
 {
     public Student() { }
@@ -66,7 +65,6 @@ public class Student
     [ForeignKey("StdId")]
     public virtual Standard Standard { get; set; }
 }
-
 '''
 
 ### Advantage
