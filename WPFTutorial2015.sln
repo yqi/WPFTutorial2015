@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFModelFirstSQLExpress", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDbFirstSQLExpress", "EFDbFirstSQLExpress\EFDbFirstSQLExpress.csproj", "{980F25D1-F3D5-4DFD-A8B1-76A99F2C22C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstSQLExpress", "EFCodeFirstSQLExpress\EFCodeFirstSQLExpress.csproj", "{C8A23423-5293-44FD-A0F6-53D25BBEF46B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstEmptySQLExpress", "EFCodeFirstSQLExpress\EFCodeFirstEmptySQLExpress.csproj", "{C8A23423-5293-44FD-A0F6-53D25BBEF46B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstFromDbSQLExpress", "EFCodeFirstFromDbSQLExpress\EFCodeFirstFromDbSQLExpress.csproj", "{5DC5F7C2-364C-4270-B2AD-DAE5D5B204F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C8A23423-5293-44FD-A0F6-53D25BBEF46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A23423-5293-44FD-A0F6-53D25BBEF46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A23423-5293-44FD-A0F6-53D25BBEF46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC5F7C2-364C-4270-B2AD-DAE5D5B204F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC5F7C2-364C-4270-B2AD-DAE5D5B204F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC5F7C2-364C-4270-B2AD-DAE5D5B204F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC5F7C2-364C-4270-B2AD-DAE5D5B204F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
