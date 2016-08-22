@@ -42,9 +42,11 @@
 - Fluent API
 - DataAnnotation
 
-''' Example:
-[Table("StudentInfo")]
 
+```
+Example:
+
+[Table("StudentInfo")]
 public class Student
 {
     public Student() { }
@@ -59,13 +61,12 @@ public class Student
     [NotMapped]
     public int? Age { get; set; }
         
-        
     public int StdId { get; set; }
 
     [ForeignKey("StdId")]
     public virtual Standard Standard { get; set; }
 }
-'''
+```
 
 ### Advantage
 * more control of database
