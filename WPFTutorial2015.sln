@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8C7BB2CF-8FBD-412F-B60A-050885DA6AF7}"
 EndProject
@@ -9,9 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkSQLCEApp", "EntityFrameWorkSQLCEApp\EntityFrameWorkSQLCEApp.csproj", "{459DC130-F994-45F0-BE80-4E49E415E849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkSQLExpressApp", "EntityFrameworkSQLExpressApp\EntityFrameworkSQLExpressApp.csproj", "{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmLightApp", "MvvmLightApp\MvvmLightApp.csproj", "{171DF81C-C6A3-4144-9C64-75FB4DFEA557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFModelFirstSQLExpress", "EFModelFirstSQLExpress\EFModelFirstSQLExpress.csproj", "{0A62F95B-9EF6-41DD-B5EC-9E0DF38627F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDbFirstSQLExpress", "EFDbFirstSQLExpress\EFDbFirstSQLExpress.csproj", "{980F25D1-F3D5-4DFD-A8B1-76A99F2C22C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstSQLExpress", "EFCodeFirstSQLExpress\EFCodeFirstSQLExpress.csproj", "{C8A23423-5293-44FD-A0F6-53D25BBEF46B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +35,22 @@ Global
 		{459DC130-F994-45F0-BE80-4E49E415E849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{459DC130-F994-45F0-BE80-4E49E415E849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{459DC130-F994-45F0-BE80-4E49E415E849}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2AE1ADC-AE1D-4D3C-9EC7-4507CEEB4C01}.Release|Any CPU.Build.0 = Release|Any CPU
 		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{171DF81C-C6A3-4144-9C64-75FB4DFEA557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A62F95B-9EF6-41DD-B5EC-9E0DF38627F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A62F95B-9EF6-41DD-B5EC-9E0DF38627F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A62F95B-9EF6-41DD-B5EC-9E0DF38627F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A62F95B-9EF6-41DD-B5EC-9E0DF38627F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980F25D1-F3D5-4DFD-A8B1-76A99F2C22C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980F25D1-F3D5-4DFD-A8B1-76A99F2C22C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980F25D1-F3D5-4DFD-A8B1-76A99F2C22C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980F25D1-F3D5-4DFD-A8B1-76A99F2C22C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A23423-5293-44FD-A0F6-53D25BBEF46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A23423-5293-44FD-A0F6-53D25BBEF46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A23423-5293-44FD-A0F6-53D25BBEF46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A23423-5293-44FD-A0F6-53D25BBEF46B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
