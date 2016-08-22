@@ -8,11 +8,11 @@
 * Management Studio has more control on DB design.
 
 ### Advantage
-* data will not be lost
+* *data will not be lost*
 
 ### Disadvantage
-* create DB is not easy as above
-* sdatabase migration is hard
+* **create DB is not easy as above**
+* __database migration is hard__
 
 ## Model first 
 1. Using NuGet to get EntityFramework
@@ -24,10 +24,12 @@
 7. Rest is same as Database first
 
 * Advantage
+
 ..* easy DB design
 ..* model can be updated when database changed
 
 * Disadvantage
+
 ..* DB data will be lost if generated database
 
 ## Code First 
