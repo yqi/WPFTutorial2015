@@ -19,8 +19,8 @@
 2. Add "New Items" to project: Data -> ADO.NET Entity Data Model, select Empty EF Designer model
 3. Edit Model with toolbox
 4. Right click on Model and select "Generate database from Model"
-5. Double click the generated *.edmx.sql and excecute it.
-6. After DB design finished, add data.
+5. Double click the generated *.edmx.sql and excecute it
+6. After DB design finished, add data
 7. Rest is same as Database first
 
 1. Advantage
